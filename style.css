@@ -1,4 +1,121 @@
+html,
 body {
-	/* Временно */
-	background-color: green;
+    margin: 0;
+    padding: 0;	
+    min-height: 1750px;
+    min-width: 1122px;
+    color: #d01e1e;
+}
+
+body{
+    background:url(img/tint.png) no-repeat;
+    background-size: cover
+}
+
+/*.container {
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;    
+}*/
+
+/*
+.main_header_layout {
+    display: flex;
+    justify-content: space-between;
+}
+*/
+
+.mail_header {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 60px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+.mail_header .main_navigation {
+    width: 780px;
+    min-height: 70px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.mail_header .user_block {
+    width: 140px;
+    min-height: 70px;
+    margin-right: auto;
+}
+
+.index_logo {
+    width: 368px;
+    min-height: 204px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features_item {
+    width: 300px;
+    min-height: 175px;
+}
+
+.index_content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    padding: 50px 80px;
+}
+
+.index_content_left {
+    width: 380px;
+    min-height: 330px;
+}
+
+.index_content_right {
+    width: 300px;
+    min-height: 330px;
+}
+
+.main_footer {
+    display: flex;
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*
+.main_footer_layout {
+    display: flex;
+}
+*/
+
+.footer_contacts {
+    margin-left: auto;
+    width: 320px;
+    margin-right: 60px;
+    
+}
+
+.footer_social {
+    width: 180px;
+    min-height: 90px;
+}
+
+.footer_copyright {
+    width: 160px;
+    margin-right: auto;
+    margin-left: 220px;
+    
 }
